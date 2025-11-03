@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+hospital_ml/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Models
+*.pkl
+*.h5
+*.pt
+
+# IDE
+.vscode/
+.idea/
