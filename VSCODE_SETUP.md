@@ -80,7 +80,7 @@ pip install -r requirements.txt
 
 ### 2. Check Terminal Environment
 
-1. Open a new terminal in VS Code (`Ctrl+` ` or `Cmd+` `)
+1. Open a new terminal in VS Code (`` Ctrl+` `` or `` Cmd+` ``)
 2. You should see `(hospital_ml)` at the beginning of your prompt
 3. Verify with: `conda env list` (active environment is marked with `*`)
 
@@ -156,7 +156,9 @@ If you have Copilot Chat:
 **Solutions:**
 1. Click Python version in bottom-left corner
 2. Select "Enter interpreter path..."
-3. Navigate to: `./hospital_ml/bin/python` (Mac/Linux) or `.\hospital_ml\Scripts\python.exe` (Windows)
+3. Navigate to your Conda environment's Python:
+   - **Mac/Linux**: `~/miniconda3/envs/hospital_ml/bin/python` or `~/anaconda3/envs/hospital_ml/bin/python`
+   - **Windows**: `%USERPROFILE%\miniconda3\envs\hospital_ml\Scripts\python.exe`
 
 Alternatively:
 ```bash

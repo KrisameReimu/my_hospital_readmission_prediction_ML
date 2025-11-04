@@ -13,7 +13,6 @@
     },
     
     // Python Settings
-    "python.defaultInterpreterPath": "${workspaceFolder}/hospital_ml/bin/python",
     "python.terminal.activateEnvironment": true,
     "python.terminal.activateEnvInCurrentTerminal": true,
     
@@ -25,19 +24,19 @@
         "--max-line-length=100",
         "--ignore=E203,W503"
     ],
-    
-    // Python Formatting
-    "python.formatting.provider": "black",
-    "python.formatting.blackArgs": [
-        "--line-length=100"
-    ],
     "[python]": {
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
             "source.organizeImports": "explicit"
         },
-        "editor.defaultFormatter": "ms-python.black-formatter"
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSaveMode": "file"
     },
+    
+    // Black formatter arguments
+    "black-formatter.args": [
+        "--line-length=100"
+    ],
     
     // General Editor Settings
     "editor.rulers": [100],
