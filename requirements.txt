@@ -134,3 +134,9 @@ webencodings==0.5.1
 websocket-client @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_d37u7gqts8/croot/websocket-client_1715878310260/work
 widgetsnbextension @ file:///opt/miniconda3/conda-bld/widgetsnbextension_1761556741334/work
 xgboost==3.1.1
+
+# UCI ML Repository data fetching
+ucimlrepo>=0.0.3
+
+# Additional ML/evaluation libraries for the project
+shap>=0.45.0
