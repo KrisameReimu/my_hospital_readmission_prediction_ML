@@ -117,7 +117,12 @@ python src/data/fetch_ucirepo.py
 jupyter notebook notebooks/01_data_exploration.ipynb
 ```
 
-## 📈 Project Progress
+## � Documentation
+
+- **[Git Workflow Guide](GIT_WORKFLOW.md)** - Branching strategy and commit conventions
+- **[VS Code Setup Guide](VSCODE_SETUP.md)** - Editor and Copilot configuration
+
+## �📈 Project Progress
 
 - [x] **Data Acquisition**: UCI dataset downloaded and validated
 - [x] **EDA Complete**: Comprehensive analysis with statistical tests
