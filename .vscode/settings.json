@@ -1,0 +1,83 @@
+{
+    // GitHub Copilot Settings
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "python": true
+    },
+    
+    // Configure Copilot to generate comments in English
+    "github.copilot.advanced": {
+        "language": "en"
+    },
+    
+    // Python Settings
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    
+    // Python Linting
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=100",
+        "--ignore=E203,W503"
+    ],
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSaveMode": "file"
+    },
+    
+    // Black formatter arguments
+    "black-formatter.args": [
+        "--line-length=100"
+    ],
+    
+    // General Editor Settings
+    "editor.rulers": [100],
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.trimAutoWhitespace": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.encoding": "utf8",
+    
+    // File Associations
+    "files.associations": {
+        "*.json": "jsonc"
+    },
+    
+    // Files to Exclude from Explorer
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/.pytest_cache": true,
+        "**/.ipynb_checkpoints": true,
+        "**/*.egg-info": true
+    },
+    
+    // Jupyter Notebook Settings
+    "jupyter.askForKernelRestart": false,
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    
+    // Git Settings
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    
+    // Terminal Settings
+    "terminal.integrated.env.osx": {
+        "CONDA_DEFAULT_ENV": "hospital_ml"
+    },
+    "terminal.integrated.env.linux": {
+        "CONDA_DEFAULT_ENV": "hospital_ml"
+    },
+    "terminal.integrated.env.windows": {
+        "CONDA_DEFAULT_ENV": "hospital_ml"
+    }
+}
